@@ -1,0 +1,16 @@
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: Start test sequence_arithmetic_tests:0:add_test1.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: Test sequence_arithmetic_tests:0:add_test1 is successful.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: End test sequence_arithmetic_tests:0:add_test1.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: Start test sequence_arithmetic_tests:2:add_test2.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: Test sequence_arithmetic_tests:2:add_test2 is successful.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: End test sequence_arithmetic_tests:2:add_test2.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: Start test sequence_arithmetic_tests:4:add_two.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: [2Klaw add_two: 1000 relevant cases (1000 total)
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: 
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: Test sequence_arithmetic_tests:4:add_two is successful.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: End test sequence_arithmetic_tests:4:add_two.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: Start test sequence_arithmetic_tests:5:add_two.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: [2Klaw add_two: 1000 relevant cases (1000 total)
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: 
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: Test sequence_arithmetic_tests:5:add_two is successful.
+2019-10-25T12:00:09+00:00 Tejas-MacBook-Pro.local#01 I: End test sequence_arithmetic_tests:5:add_two.
