@@ -1,0 +1,8 @@
+2019-10-25T09:59:09+00:00 Tejas-MacBook-Pro.local#01 I: Start test church_numerals_tests:0:c2i_0.
+2019-10-25T09:59:09+00:00 Tejas-MacBook-Pro.local#01 I: Test church_numerals_tests:0:c2i_0 is successful.
+2019-10-25T09:59:09+00:00 Tejas-MacBook-Pro.local#01 I: End test church_numerals_tests:0:c2i_0.
+2019-10-25T09:59:09+00:00 Tejas-MacBook-Pro.local#01 I: Start test church_numerals_tests:2:mult_distributive.
+2019-10-25T09:59:10+00:00 Tejas-MacBook-Pro.local#01 I: [2Klaw mult_distributive: 10000 relevant cases (10000 total)
+2019-10-25T09:59:10+00:00 Tejas-MacBook-Pro.local#01 I: 
+2019-10-25T09:59:10+00:00 Tejas-MacBook-Pro.local#01 I: Test church_numerals_tests:2:mult_distributive is successful.
+2019-10-25T09:59:10+00:00 Tejas-MacBook-Pro.local#01 I: End test church_numerals_tests:2:mult_distributive.
