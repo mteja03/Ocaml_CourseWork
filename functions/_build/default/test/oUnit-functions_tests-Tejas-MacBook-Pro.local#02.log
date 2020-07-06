@@ -1,0 +1,8 @@
+2019-10-25T12:04:02+00:00 Tejas-MacBook-Pro.local#02 I: Start test functions_tests:1:uncurry_test1.
+2019-10-25T12:04:02+00:00 Tejas-MacBook-Pro.local#02 I: Test functions_tests:1:uncurry_test1 is successful.
+2019-10-25T12:04:02+00:00 Tejas-MacBook-Pro.local#02 I: End test functions_tests:1:uncurry_test1.
+2019-10-25T12:04:02+00:00 Tejas-MacBook-Pro.local#02 I: Start test functions_tests:3:curry_uncurry_prop.
+2019-10-25T12:04:02+00:00 Tejas-MacBook-Pro.local#02 I: [2Klaw curry_uncurry_prop: 10000 relevant cases (10000 total)
+2019-10-25T12:04:02+00:00 Tejas-MacBook-Pro.local#02 I: 
+2019-10-25T12:04:02+00:00 Tejas-MacBook-Pro.local#02 I: Test functions_tests:3:curry_uncurry_prop is successful.
+2019-10-25T12:04:02+00:00 Tejas-MacBook-Pro.local#02 I: End test functions_tests:3:curry_uncurry_prop.
