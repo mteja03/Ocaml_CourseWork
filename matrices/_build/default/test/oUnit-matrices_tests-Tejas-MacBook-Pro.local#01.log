@@ -1,0 +1,92 @@
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:0:ismatrix_empty1.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:0:ismatrix_empty1 is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:0:ismatrix_empty1.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:2:ismatrix_one_row.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:2:ismatrix_one_row is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:2:ismatrix_one_row.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:4:ismatrix_three_rows.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:4:ismatrix_three_rows is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:4:ismatrix_three_rows.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:7:ismatrix_no1.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Test matrices_tests:7:ismatrix_no1 exited with an error.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: File "lib/Matrices.ml", line 42, characters 0-5: Pattern matching failed in test matrices_tests:7:ismatrix_no1.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Raised at file "lib/Matrices.ml", line 42, characters 0-164
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Called from file "test/MatricesTests.ml", line 55, characters 24-48
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:7:ismatrix_no1.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:9:matrixshape_empty.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:9:matrixshape_empty is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:9:matrixshape_empty.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:11:matrixshape_one_row_one_column.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:11:matrixshape_one_row_one_column is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:11:matrixshape_one_row_one_column.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:13:matrixshape_four_rows_four_columns.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:13:matrixshape_four_rows_four_columns is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:13:matrixshape_four_rows_four_columns.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:15:matrixadd_4x4.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:15:matrixadd_4x4 is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:15:matrixadd_4x4.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:17:matrixadd_3x3.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:17:matrixadd_3x3 is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:17:matrixadd_3x3.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:18:matrixmult_empty.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:18:matrixmult_empty is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:18:matrixmult_empty.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:20:matrixmult_3x3.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Test matrices_tests:20:matrixmult_3x3 has failed.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: not equal in test matrices_tests:20:matrixmult_3x3.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Raised at file "src/oUnitAssert.ml", line 45, characters 2-27
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:20:matrixmult_3x3.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:23:commutative_addition.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: [2Klaw commutative_addition: 10000 relevant cases (10000 total)
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:23:commutative_addition is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:23:commutative_addition.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:25:associative_multiplication.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: [2Klaw associative_multiplication: 1 relevant cases (1 total)
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Test matrices_tests:25:associative_multiplication has failed.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: [2Ktest `associative_multiplication` failed on ≥ 1 cases:
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 20 96 51 7 7 4 969 6 9 191 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 9 8 32 834 4 8 2 2 281 58 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 639 98 0 5 58 2 165 7 3 217 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 858 759 8977 667 8 5 9 9 0 39 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 8 7 42 0 43 0 298 2 1 74 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 2 544 36 1 8 79 6 1 20 9 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 3 6 156 7 9 1 14 814 583 120 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 442 0 700 3 3 6 1284 6 254 6 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 574 7 2 5 817 93 114 7125 7 2 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 3 1458 13 91 4 39 449 60 7 224 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 3 41 2 5 7 339 0 465 7 1 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 532 111 3 0 6 2405 5 9 8 14 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 2 6 31 2 7 1 65 968 0 31 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 8359 7553 4 9 2723 7 739 6 0 494 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 3 8332 3242 9 6 50 0 5 610 3 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 4 709 2 7 18 52 7 949 9 5 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 2 43 7 3 8 1 7 8 65 0 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 19 2 1 2 5106 80 3 19 193 107 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 8 0 7 4 6 3 1 7 7 7 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 3 71 19 4 3779 60 2 6 5 882 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 6 0 58 281 82 22 652 8 2 2 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 51 221 364 7 3 823 4 3 8 150 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 97 21 3 5 9 5 61 92 7 2 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 11 6 7 28 837 4 6 69 3 30 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E:  in test matrices_tests:25:associative_multiplication.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Raised at file "src/oUnitAssert.ml", line 45, characters 2-27
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Called from file "src/core/QCheck.ml", line 1458, characters 4-27
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Called from file "src/core/QCheck.ml", line 1620, characters 14-53
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 E: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:25:associative_multiplication.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Start test matrices_tests:26:distributive_multiplication.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: [2Klaw distributive_multiplication: 10000 relevant cases (10000 total)
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: 
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: Test matrices_tests:26:distributive_multiplication is successful.
+2019-10-25T13:32:45+00:00 Tejas-MacBook-Pro.local#01 I: End test matrices_tests:26:distributive_multiplication.

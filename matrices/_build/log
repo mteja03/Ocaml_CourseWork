@@ -1,0 +1,149 @@
+# dune runtest --profile release 
+# OCAMLPARAM: unset
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/2d/_2jcjdh552n4y_m_m5t5tyzw0000gn/T/dune8ce5d1.output 2> /dev/null
+$ /usr/local/bin/ocamlc.opt -config > /var/folders/2d/_2jcjdh552n4y_m_m5t5tyzw0000gn/T/dune2ecfdc.output
+$ (cd _build/default/test && ./MatricesTests.exe)
+> .E..E..E............FFF.F..F.
+> ==============================================================================
+> Error: matrices_tests:7:ismatrix_no1.
+>
+> File "/Users/tejamattapalli/Documents/f28pl-2019-20-ocaml-coursework/matrices/_build/default/test/oUnit-matrices_tests-Tejas-MacBook-Pro.local#01.log", line 11, characters 1-1:
+> Error: matrices_tests:7:ismatrix_no1 (in the log).
+>
+> Raised at file "lib/Matrices.ml", line 42, characters 0-164
+> Called from file "test/MatricesTests.ml", line 55, characters 24-48
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "lib/Matrices.ml", line 42, characters 0-5: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:5:ismatrix_three_rows_two_columns.
+>
+> File "/Users/tejamattapalli/Documents/f28pl-2019-20-ocaml-coursework/matrices/_build/default/test/oUnit-matrices_tests-Tejas-MacBook-Pro.local#02.log", line 13, characters 1-1:
+> Error: matrices_tests:5:ismatrix_three_rows_two_columns (in the log).
+>
+> Raised at file "lib/Matrices.ml", line 42, characters 0-164
+> Called from file "test/MatricesTests.ml", line 43, characters 19-59
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "lib/Matrices.ml", line 42, characters 0-5: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:1:ismatrix_empty2.
+>
+> File "/Users/tejamattapalli/Documents/f28pl-2019-20-ocaml-coursework/matrices/_build/default/test/oUnit-matrices_tests-Tejas-MacBook-Pro.local#02.log", line 2, characters 1-1:
+> Error: matrices_tests:1:ismatrix_empty2 (in the log).
+>
+> Raised at file "lib/Matrices.ml", line 42, characters 0-164
+> Called from file "test/MatricesTests.ml", line 17, characters 19-57
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "lib/Matrices.ml", line 42, characters 0-5: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:28:multiplication_zeros.
+>
+> File "/Users/tejamattapalli/Documents/f28pl-2019-20-ocaml-coursework/matrices/_build/default/test/oUnit-matrices_tests-Tejas-MacBook-Pro.local#02.log", line 68, characters 1-1:
+> Error: matrices_tests:28:multiplication_zeros (in the log).
+>
+> File "src/core/QCheck.ml", line 1458, characters 1-1:
+> Error: matrices_tests:28:multiplication_zeros (in the code).
+>
+> ultiplication_zeros` failed on ≥ 1 cases:
+> 2 43 7 3 8 1 7 8 65 0 
+> 19 2 1 2 5106 80 3 19 193 107 
+> 8 0 7 4 6 3 1 7 7 7 
+> 3 71 19 4 3779 60 2 6 5 882 
+> 6 0 58 281 82 22 652 8 2 2 
+> 51 221 364 7 3 823 4 3 8 150 
+> 97 21 3 5 9 5 61 92 7 2 
+> 11 6 7 28 837 4 6 69 3 30 
+>
+> 0 0 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 0 0 
+>
+>
+>
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:25:associative_multiplication.
+>
+> File "/Users/tejamattapalli/Documents/f28pl-2019-20-ocaml-coursework/matrices/_build/default/test/oUnit-matrices_tests-Tejas-MacBook-Pro.local#01.log", line 51, characters 1-1:
+> Error: matrices_tests:25:associative_multiplication (in the log).
+>
+> File "src/core/QCheck.ml", line 1458, characters 1-1:
+> Error: matrices_tests:25:associative_multiplication (in the code).
+>
+> ultiplication` failed on ≥ 1 cases:
+> 20 96 51 7 7 4 969 6 9 191 
+> 9 8 32 834 4 8 2 2 281 58 
+> 639 98 0 5 58 2 165 7 3 217 
+> 858 759 8977 667 8 5 9 9 0 39 
+> 8 7 42 0 43 0 298 2 1 74 
+> 2 544 36 1 8 79 6 1 20 9 
+> 3 6 156 7 9 1 14 814 583 120 
+> 442 0 700 3 3 6 1284 6 254 6 
+>
+> 574 7 2 5 817 93 114 7125 7 2 
+> 3 1458 13 91 4 39 449 60 7 224 
+> 3 41 2 5 7 339 0 465 7 1 
+> 532 111 3 0 6 2405 5 9 8 14 
+> 2 6 31 2 7 1 65 968 0 31 
+> 8359 7553 4 9 2723 7 739 6 0 494 
+> 3 8332 3242 9 6 50 0 5 610 3 
+> 4 709 2 7 18 52 7 949 9 5 
+>
+> 2 43 7 3 8 1 7 8 65 0 
+> 19 2 1 2 5106 80 3 19 193 107 
+> 8 0 7 4 6 3 1 7 7 7 
+> 3 71 19 4 3779 60 2 6 5 882 
+> 6 0 58 281 82 22 652 8 2 2 
+> 51 221 364 7 3 823 4 3 8 150 
+> 97 21 3 5 9 5 61 92 7 2 
+> 11 6 7 28 837 4 6 69 3 30 
+>
+>
+>
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:22:matrixmult_2x4.
+>
+> File "/Users/tejamattapalli/Documents/f28pl-2019-20-ocaml-coursework/matrices/_build/default/test/oUnit-matrices_tests-Tejas-MacBook-Pro.local#02.log", line 49, characters 1-1:
+> Error: matrices_tests:22:matrixmult_2x4 (in the log).
+>
+> Raised at file "src/oUnitAssert.ml", line 45, characters 2-27
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> not equal
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:21:matrixmult_3x2.
+>
+> File "/Users/tejamattapalli/Documents/f28pl-2019-20-ocaml-coursework/matrices/_build/default/test/oUnit-matrices_tests-Tejas-MacBook-Pro.local#02.log", line 42, characters 1-1:
+> Error: matrices_tests:21:matrixmult_3x2 (in the log).
+>
+> Raised at file "src/oUnitAssert.ml", line 45, characters 2-27
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> not equal
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:20:matrixmult_3x3.
+>
+> File "/Users/tejamattapalli/Documents/f28pl-2019-20-ocaml-coursework/matrices/_build/default/test/oUnit-matrices_tests-Tejas-MacBook-Pro.local#01.log", line 37, characters 1-1:
+> Error: matrices_tests:20:matrixmult_3x3 (in the log).
+>
+> Raised at file "src/oUnitAssert.ml", line 45, characters 2-27
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> not equal
+> ------------------------------------------------------------------------------
+> Ran: 29 tests in: 0.67 seconds.
+> FAILED: Cases: 29 Tried: 29 Errors: 3 Failures: 5 Skip:  0 Todo: 0 Timeouts: 0.
+[1]
