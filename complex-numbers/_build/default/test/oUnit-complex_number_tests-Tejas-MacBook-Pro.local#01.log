@@ -1,0 +1,24 @@
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Start test complex_number_tests:0:cadd_test1.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Test complex_number_tests:0:cadd_test1 is successful.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: End test complex_number_tests:0:cadd_test1.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Start test complex_number_tests:2:cmult_test1.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Test complex_number_tests:2:cmult_test1 is successful.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: End test complex_number_tests:2:cmult_test1.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Start test complex_number_tests:4:cmult_test3.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Test complex_number_tests:4:cmult_test3 is successful.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: End test complex_number_tests:4:cmult_test3.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Start test complex_number_tests:6:cadd_commutative.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: [2Klaw cadd_commutative: 10000 relevant cases (10000 total)
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: 
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Test complex_number_tests:6:cadd_commutative is successful.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: End test complex_number_tests:6:cadd_commutative.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Start test complex_number_tests:9:mult_associative.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: [2Klaw mult_associative: 10000 relevant cases (10000 total)
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: 
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Test complex_number_tests:9:mult_associative is successful.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: End test complex_number_tests:9:mult_associative.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Start test complex_number_tests:10:mult_distributive.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: [2Klaw mult_distributive: 10000 relevant cases (10000 total)
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: 
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: Test complex_number_tests:10:mult_distributive is successful.
+2019-10-25T10:01:44+00:00 Tejas-MacBook-Pro.local#01 I: End test complex_number_tests:10:mult_distributive.
