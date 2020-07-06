@@ -1,0 +1,10 @@
+# dune runtest --profile release 
+# OCAMLPARAM: unset
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/2d/_2jcjdh552n4y_m_m5t5tyzw0000gn/T/dune7a103b.output 2> /dev/null
+$ /usr/local/bin/ocamlc.opt -config > /var/folders/2d/_2jcjdh552n4y_m_m5t5tyzw0000gn/T/duneb6e2d7.output
+$ (cd _build/default && /usr/local/bin/ocamldep.opt -modules -impl test/SequenceArithmeticTests.ml) > _build/default/test/.SequenceArithmeticTests.eobjs/SequenceArithmeticTests.ml.d
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w -40 -g -bin-annot -I test/.SequenceArithmeticTests.eobjs/byte -I /Users/tejamattapalli/.opam/default/lib/bytes -I /Users/tejamattapalli/.opam/default/lib/oUnit -I /Users/tejamattapalli/.opam/default/lib/qcheck -I /Users/tejamattapalli/.opam/default/lib/qcheck-core -I /Users/tejamattapalli/.opam/default/lib/qcheck-core/runner -I /Users/tejamattapalli/.opam/default/lib/qcheck-ounit -I lib/.SequenceArithmetic.objs/byte -I lib/.SequenceArithmetic.objs/native -no-alias-deps -o test/.SequenceArithmeticTests.eobjs/byte/SequenceArithmeticTests.cmo -c -impl test/SequenceArithmeticTests.ml)
+> File "test/SequenceArithmeticTests.ml", line 118, characters 6-9:
+> 118 |   let sum = List.fold_left (+) 0
+>             ^^^
+> Warning 26: unused variable sum.
